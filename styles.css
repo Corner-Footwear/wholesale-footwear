@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corner Footwear | Wholesale Footwear</title>
+    <meta
+      name="description"
+      content="Wholesale footwear for retailers, distributors, and resellers. Shop premium shoes online with bulk pricing and fast dispatch."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Corner Footwear home">
+          <span class="brand-mark">CF</span>
+          <span>Corner Footwear</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#shop">Shop</a>
+          <a href="#benefits">Why Us</a>
+          <a href="#brands">Brands</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn btn-ghost">Request Quote</button>
+          <button class="cart-button" aria-label="Shopping cart">
+            🛒
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <span class="eyebrow">Wholesale excellence</span>
+            <h1>Premium footwear for growing retailers.</h1>
+            <p>
+              Source dependable styles, competitive pricing, and rapid fulfillment for your
+              storefront, franchise, or distribution network.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#shop">Browse catalog</a>
+              <a class="btn btn-secondary" href="#contact">Talk to sales</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>1.2k+</strong>
+                <span>Retail partners</span>
+              </div>
+              <div>
+                <strong>48h</strong>
+                <span>Average dispatch</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Client rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Featured footwear deal">
+            <div class="panel-card">
+              <div class="mini-label">Featured deal</div>
+              <div class="deal-badge">30% off case packs</div>
+              <h2>Summit Runner</h2>
+              <p>Flexible case packs, elite comfort, and all-season demand.</p>
+              <div class="deal-row">
+                <span class="deal-price">$89</span>
+                <span class="deal-meta">per pair</span>
+              </div>
+              <button class="btn btn-primary full">Add to order</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow light">Why choose us</span>
+              <h2>Built for wholesale efficiency.</h2>
+            </div>
+            <p>
+              From boutique stores to larger merchandisers, we help you move inventory with the
+              right mix of price, speed, and style.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">📦</div>
+              <h3>Bulk-ready inventory</h3>
+              <p>Large-volume stock across casual, sport, and formal ranges with flexible pack sizes.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">💸</div>
+              <h3>Competitive margins</h3>
+              <p>Wholesale pricing designed to help retailers protect profitability while staying attractive.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🚚</div>
+              <h3>Reliable delivery</h3>
+              <p>Fast fulfillment, dependable shipping, and proactive updates from order to doorstep.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shop-section" id="shop">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow light">Featured collection</span>
+              <h2>Top footwear picks</h2>
+            </div>
+            <p>Curated best-sellers across men’s, women’s, sport, and formal styles.</p>
+          </div>
+
+          <div class="catalog-tools">
+            <div class="filters" aria-label="Product filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="men">Men</button>
+              <button class="filter-btn" data-filter="women">Women</button>
+              <button class="filter-btn" data-filter="sport">Sport</button>
+              <button class="filter-btn" data-filter="formal">Formal</button>
+            </div>
+            <button class="btn btn-primary">Request price list</button>
+          </div>
+
+          <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="brands">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow light">Trusted brands</span>
+              <h2>Partnered with quality labels.</h2>
+            </div>
+            <p>We source dependable footwear collections your customers will recognize and trust.</p>
+          </div>
+
+          <div class="brand-strip" aria-label="Brand list">
+            <div>Urban Step</div>
+            <div>Summit Pro</div>
+            <div>Veloura</div>
+            <div>Footcraft</div>
+            <div>North Lane</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section">
+        <div class="container">
+          <div class="cta-box">
+            <div>
+              <h3>Need wholesale pricing for your next order?</h3>
+              <p>Get tailored rates for your retail space, distributor network, or online store.</p>
+            </div>
+            <a class="btn btn-primary" href="#contact">Contact sales</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand white" href="#top">
+            <span class="brand-mark">CF</span>
+            <span>Corner Footwear</span>
+          </a>
+          <p>
+            Supplying premium footwear to retailers, resellers, and growing businesses across the region.
+          </p>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#shop">Catalog</a></li>
+            <li><a href="#benefits">Why us</a></li>
+            <li><a href="#brands">Brands</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Order tracking</a></li>
+            <li><a href="#">Shipping policy</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul class="contact-list">
+            <li>hello@cornerfootwear.com</li>
+            <li>+1 (800) 555-0148</li>
+            <li>3400 Commerce Ave, Suite 200</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span>© 2026 Corner Footwear</span>
+        <span>Wholesale footwear supply</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
